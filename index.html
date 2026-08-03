@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Paola Di Donato Nail Artist | Manicura y Nail Art en Punta del Este</title>
-<meta name="description" content="Manicura profesional y nail art en Punta del Este. Kapping, diseños personalizados y cuidado de uñas con 5★ en Google (24 reseñas). Reservá por WhatsApp.">
+<meta name="description" content="Reservá tu turno de manicura y nail art en Punta del Este. Kapping, diseños personalizados y cuidado de uñas con 5★ en Google (24 reseñas). Atiende martes y domingos.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💅</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -66,6 +66,8 @@
   .btn-ghost:hover{background:var(--ink);color:var(--white)}
   .btn-wa{background:#25d366;color:#fff}
   .btn-wa:hover{box-shadow:0 6px 18px rgba(37,211,102,.35)}
+  .btn-accent{background:var(--blush-deep);color:#fff}
+  .btn-accent:hover{box-shadow:0 6px 18px rgba(201,130,111,.4)}
 
   /* ---------- Header ---------- */
   header{position:sticky;top:0;z-index:50;background:rgba(250,246,240,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
@@ -143,7 +145,7 @@
   .gallery-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:.8rem}
   .gallery-grid img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:var(--radius)}
   .gallery-note{text-align:center;margin-top:1rem;font-size:.82rem;color:var(--ink-soft)}
-  .gallery-cta{text-align:center;margin-top:1.6rem}
+  .gallery-cta{display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap;margin-top:1.6rem}
   @media(min-width:820px){.gallery-grid{grid-template-columns:repeat(4,1fr)}}
 
   /* ---------- Ubicación ---------- */
@@ -207,7 +209,7 @@
         <li><a href="#galeria">Galería</a></li>
         <li><a href="#ubicacion">Ubicación</a></li>
         <li><a href="#faq">Preguntas</a></li>
-        <li><a class="btn btn-primary nav-cta" href="#contacto">Solicitar información</a></li>
+        <li><a class="btn btn-accent nav-cta" href="#contacto">Reservar turno</a></li>
       </ul>
       <button class="menu-btn" aria-label="Abrir menú" onclick="document.getElementById('mmenu').classList.toggle('open')">☰</button>
     </nav>
@@ -217,7 +219,7 @@
       <li><a href="#galeria" onclick="closeMenu()">Galería</a></li>
       <li><a href="#ubicacion" onclick="closeMenu()">Ubicación</a></li>
       <li><a href="#faq" onclick="closeMenu()">Preguntas frecuentes</a></li>
-      <li><a class="btn btn-primary" href="#contacto" onclick="closeMenu()">Solicitar información</a></li>
+      <li><a class="btn btn-accent" href="#contacto" onclick="closeMenu()">Reservar turno</a></li>
     </ul>
   </div>
 </header>
@@ -229,10 +231,9 @@
     <div class="wrap">
       <p class="eyebrow">Punta del Este · Uruguay</p>
       <h1>Uñas cuidadas,<br>diseños <em>a tu medida</em>.</h1>
-      <p>Manicura profesional y nail art en un espacio prolijo y cercano.</p>
+      <p>Atiende solo martes y domingos, con turnos que se reservan en un mensaje.</p>
       <div class="hero-ctas">
-        <a class="btn btn-primary" href="#contacto">Solicitar información</a>
-        <a class="btn btn-wa" href="https://wa.me/59891353410?text=Hola%20Paola!%20Quiero%20pedir%20informaci%C3%B3n%20sobre%20tus%20servicios." target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn btn-primary" href="https://wa.me/59891353410?text=Hola%20Paola!%20Quiero%20reservar%20un%20turno." target="_blank" rel="noopener">Reservar turno</a>
       </div>
       <div class="rating">
         <span class="stars">★★★★★</span>
@@ -277,35 +278,35 @@
       <div class="sec-head">
         <p class="eyebrow">Servicios</p>
         <h2>Del mantenimiento al diseño soñado</h2>
-        <p>Servicios mencionados por sus clientas. Consultá disponibilidad y precios por WhatsApp.</p>
+        <p>Elegí el tuyo y pedí tu turno por WhatsApp, sin vueltas.</p>
       </div>
       <div class="services-grid">
         <div class="service">
           <span class="tag">Fortalecimiento</span>
           <h3>Kapping</h3>
           <p>Capa de refuerzo sobre la uña natural, con colocación prolija y retiro cuidadoso — también de trabajos realizados en otros salones.</p>
-          <a class="btn btn-ghost" href="https://wa.me/59891353410?text=Hola%20Paola!%20Quiero%20consultar%20por%20kapping." target="_blank" rel="noopener">Consultar</a>
+          <a class="btn btn-ghost" href="https://wa.me/59891353410?text=Hola%20Paola!%20Quiero%20reservar%20un%20turno%20para%20kapping." target="_blank" rel="noopener">Reservar</a>
         </div>
         <div class="service">
           <span class="tag">Nail art</span>
           <h3>Diseños personalizados</h3>
           <p>Desde looks simples y prolijos hasta diseños complejos a partir de una referencia, en distintas formas — incluida stiletto.</p>
-          <a class="btn btn-ghost" href="https://wa.me/59891353410?text=Hola%20Paola!%20Quiero%20consultar%20por%20un%20dise%C3%B1o." target="_blank" rel="noopener">Consultar</a>
+          <a class="btn btn-ghost" href="https://wa.me/59891353410?text=Hola%20Paola!%20Quiero%20reservar%20un%20turno%20para%20un%20dise%C3%B1o." target="_blank" rel="noopener">Reservar</a>
         </div>
         <div class="service">
           <span class="tag">Recuperación</span>
           <h3>Uñas mordidas (onicofagia)</h3>
           <p>Acompañamiento comprensivo para recuperar manos lastimadas por el hábito de morderse las uñas, según cuentan sus clientas.</p>
-          <a class="btn btn-ghost" href="https://wa.me/59891353410?text=Hola%20Paola!%20Quiero%20consultar%20por%20recuperaci%C3%B3n%20de%20u%C3%B1as." target="_blank" rel="noopener">Consultar</a>
+          <a class="btn btn-ghost" href="https://wa.me/59891353410?text=Hola%20Paola!%20Quiero%20reservar%20un%20turno%20para%20recuperar%20mis%20u%C3%B1as." target="_blank" rel="noopener">Reservar</a>
         </div>
         <div class="service">
           <span class="tag">Cuidado</span>
           <h3>Manicura y pedicura</h3>
           <p>Cuidado integral de manos y pies con foco en la salud de la uña natural. <em>[Detalle de servicios a completar por el negocio.]</em></p>
-          <a class="btn btn-ghost" href="https://wa.me/59891353410?text=Hola%20Paola!%20Quiero%20consultar%20por%20manicura%20o%20pedicura." target="_blank" rel="noopener">Consultar</a>
+          <a class="btn btn-ghost" href="https://wa.me/59891353410?text=Hola%20Paola!%20Quiero%20reservar%20un%20turno%20de%20manicura%20o%20pedicura." target="_blank" rel="noopener">Reservar</a>
         </div>
       </div>
-      <p class="services-note">¿Buscás otro servicio? Escribile a Paola y contale qué necesitás.</p>
+      <p class="services-note">¿Buscás otra cosa? Escribile a Paola: contale qué necesitás y coordinen juntas el turno.</p>
     </div>
   </section>
 
@@ -354,6 +355,7 @@
       </div>
       <p class="gallery-note">Imágenes ilustrativas de la demo — se reemplazan por fotos reales del salón.</p>
       <div class="gallery-cta">
+        <a class="btn btn-accent" href="https://wa.me/59891353410?text=Hola%20Paola!%20Vi%20un%20estilo%20que%20me%20encant%C3%B3%20y%20quiero%20reservar%20un%20turno." target="_blank" rel="noopener">Quiero uñas así</a>
         <a class="btn btn-ghost" href="https://www.instagram.com/paoladidonatonailartist" target="_blank" rel="noopener">Ver más en Instagram</a>
       </div>
     </div>
@@ -428,17 +430,17 @@
   <section id="contacto" class="contact">
     <div class="wrap">
       <div class="sec-head">
-        <p class="eyebrow">Contacto</p>
-        <h2>Solicitá información</h2>
-        <p>Completá tus datos y el mensaje se abre directo en WhatsApp.</p>
+        <p class="eyebrow">Reservas</p>
+        <h2>Reservá tu turno hoy</h2>
+        <p>Contanos qué te querés hacer: el mensaje se abre directo en WhatsApp y coordinás tu lugar con Paola.</p>
       </div>
       <div class="contact-box">
         <form id="waForm">
           <label for="fName">Nombre</label>
           <input id="fName" type="text" placeholder="Tu nombre" required>
-          <label for="fMsg">¿Qué servicio te interesa?</label>
+          <label for="fMsg">¿Qué te querés hacer?</label>
           <textarea id="fMsg" rows="3" placeholder="Ej.: kapping con diseño, para el próximo domingo" required></textarea>
-          <button class="btn btn-wa" type="submit">Enviar por WhatsApp</button>
+          <button class="btn btn-wa" type="submit">Reservar por WhatsApp</button>
         </form>
         <p class="contact-alt">Preferís llamar: <a href="tel:+59891353410">+598 91 353 410</a></p>
       </div>
@@ -479,7 +481,7 @@
   </div>
 </footer>
 
-<a class="fab-wa" href="https://wa.me/59891353410?text=Hola%20Paola!%20Quiero%20pedir%20informaci%C3%B3n." target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+<a class="fab-wa" href="https://wa.me/59891353410?text=Hola%20Paola!%20Quiero%20reservar%20un%20turno." target="_blank" rel="noopener" aria-label="Reservar turno por WhatsApp">
   <svg viewBox="0 0 32 32"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.4.7 4.6 2 6.5L4 29l7.7-2c1.8 1 3.8 1.5 5.9 1.5 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 22c-1.9 0-3.7-.5-5.3-1.5l-.4-.2-4.5 1.2 1.2-4.4-.3-.4C5.6 18.1 5 16.6 5 15 5 9 9.9 4 16 4s11 5 11 11-4.9 10-11 10zm5.5-7.5c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.5-.5.2-.2.2-.3.3-.5.1-.2.1-.4 0-.6-.1-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.2-.6-.4z"/></svg>
 </a>
 
@@ -489,7 +491,7 @@
     e.preventDefault();
     var n=document.getElementById('fName').value.trim();
     var m=document.getElementById('fMsg').value.trim();
-    var text='Hola Paola! Soy '+n+'. '+m;
+    var text='Hola Paola! Soy '+n+'. Quiero reservar un turno: '+m;
     window.open('https://wa.me/59891353410?text='+encodeURIComponent(text),'_blank');
   });
 </script>
