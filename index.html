@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paola Di Donato Nail Artist | Manicura y Nail Art en Punta del Este</title>
+<meta name="description" content="Manicura profesional y nail art en Punta del Este. Kapping, diseños personalizados y cuidado de uñas con 5★ en Google (24 reseñas). Reservá por WhatsApp.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💅</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NailSalon",
+  "name": "Paola Di Donato Nail Artist",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "C. 24 &",
+    "addressLocality": "Punta del Este",
+    "addressRegion": "Departamento de Maldonado",
+    "postalCode": "20100",
+    "addressCountry": "UY"
+  },
+  "telephone": "+59891353410",
+  "url": "https://www.instagram.com/paoladidonatonailartist",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "24"
+  },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "10:00", "closes": "18:30" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:00", "closes": "18:30" }
+  ]
+}
+</script>
+<style>
+  :root{
+    --ivory:#faf6f0;
+    --ivory-2:#f3ece2;
+    --ink:#2b2320;
+    --ink-soft:#6d615a;
+    --blush:#e8b4a8;
+    --blush-deep:#c9826f;
+    --line:#e2d8cc;
+    --white:#fffdfa;
+    --radius:18px;
+    --font-display:'Fraunces',Georgia,serif;
+    --font-body:'Karla',system-ui,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--font-body);background:var(--ivory);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+  img{max-width:100%;display:block}
+  a{color:inherit}
+  .wrap{width:min(1100px,92%);margin-inline:auto}
+
+  /* ---------- Etiquetas / botones ---------- */
+  .eyebrow{font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--blush-deep);font-weight:700;margin-bottom:.9rem}
+  .btn{display:inline-flex;align-items:center;gap:.5rem;padding:.85rem 1.6rem;border-radius:999px;font-weight:700;font-size:.95rem;text-decoration:none;transition:transform .15s ease,box-shadow .15s ease;border:1.5px solid transparent}
+  .btn:active{transform:scale(.97)}
+  .btn-primary{background:var(--ink);color:var(--white)}
+  .btn-primary:hover{box-shadow:0 6px 18px rgba(43,35,32,.25)}
+  .btn-ghost{border-color:var(--ink);color:var(--ink);background:transparent}
+  .btn-ghost:hover{background:var(--ink);color:var(--white)}
+  .btn-wa{background:#25d366;color:#fff}
+  .btn-wa:hover{box-shadow:0 6px 18px rgba(37,211,102,.35)}
+
+  /* ---------- Header ---------- */
+  header{position:sticky;top:0;z-index:50;background:rgba(250,246,240,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:.9rem 0}
+  .brand{font-family:var(--font-display);font-size:1.05rem;font-weight:500;text-decoration:none;letter-spacing:.02em}
+  .brand em{font-style:italic;color:var(--blush-deep)}
+  .nav-links{display:none;gap:1.6rem;list-style:none;align-items:center}
+  .nav-links a{text-decoration:none;font-size:.9rem;font-weight:600;color:var(--ink-soft)}
+  .nav-links a:hover{color:var(--ink)}
+  .nav-cta{display:none}
+  .menu-btn{background:none;border:none;font-size:1.5rem;cursor:pointer;color:var(--ink);line-height:1}
+  .mobile-menu{display:none;flex-direction:column;gap:1rem;padding:1.2rem 0 1.6rem;list-style:none;border-top:1px solid var(--line)}
+  .mobile-menu.open{display:flex}
+  .mobile-menu a{text-decoration:none;font-weight:600;color:var(--ink)}
+  @media(min-width:820px){
+    .nav-links{display:flex}
+    .nav-cta{display:inline-flex;padding:.6rem 1.2rem;font-size:.85rem}
+    .menu-btn{display:none}
+  }
+
+  /* ---------- Hero ---------- */
+  .hero{padding:4.5rem 0 3.5rem;text-align:center}
+  .hero h1{font-family:var(--font-display);font-weight:400;font-size:clamp(2.2rem,6vw,3.8rem);line-height:1.12;letter-spacing:-.01em;margin-bottom:1.1rem}
+  .hero h1 em{font-style:italic;color:var(--blush-deep)}
+  .hero p{color:var(--ink-soft);font-size:1.05rem;max-width:34rem;margin:0 auto 1.8rem}
+  .hero-ctas{display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap;margin-bottom:1.6rem}
+  .rating{display:inline-flex;align-items:center;gap:.5rem;font-size:.9rem;color:var(--ink-soft)}
+  .rating a{color:var(--ink-soft)}
+  .stars{color:#e2a63d;letter-spacing:.1em;font-size:1rem}
+  .hero-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:.7rem;margin-top:3rem}
+  .hero-strip .ph{aspect-ratio:3/4}
+  .hero-strip .ph:nth-child(3){display:none}
+  @media(min-width:640px){.hero-strip{grid-template-columns:repeat(3,1fr)}.hero-strip .ph:nth-child(3){display:flex}}
+
+  /* ---------- Placeholder de imagen ---------- */
+  .ph{background:linear-gradient(145deg,var(--ivory-2),#ece1d3);border:1.5px dashed var(--line);border-radius:var(--radius);display:flex;align-items:center;justify-content:center;text-align:center;padding:1rem;color:var(--ink-soft);font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;font-weight:600}
+
+  /* ---------- Secciones ---------- */
+  section{padding:4rem 0}
+  .sec-head{text-align:center;max-width:38rem;margin:0 auto 2.6rem}
+  .sec-head h2{font-family:var(--font-display);font-weight:400;font-size:clamp(1.7rem,4vw,2.4rem);line-height:1.2;margin-bottom:.8rem}
+  .sec-head p{color:var(--ink-soft)}
+
+  /* ---------- Propuesta de valor ---------- */
+  .values{background:var(--white);border-block:1px solid var(--line)}
+  .values-grid{display:grid;gap:1.4rem}
+  .value{padding:1.6rem;border:1px solid var(--line);border-radius:var(--radius);background:var(--ivory)}
+  .value .icon{font-size:1.6rem;margin-bottom:.7rem}
+  .value h3{font-family:var(--font-display);font-weight:500;font-size:1.15rem;margin-bottom:.4rem}
+  .value p{color:var(--ink-soft);font-size:.95rem}
+  @media(min-width:820px){.values-grid{grid-template-columns:repeat(3,1fr)}}
+
+  /* ---------- Servicios ---------- */
+  .services-grid{display:grid;gap:1rem}
+  .service{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:1.5rem;display:flex;flex-direction:column;gap:.4rem}
+  .service h3{font-family:var(--font-display);font-weight:500;font-size:1.15rem}
+  .service p{color:var(--ink-soft);font-size:.95rem;flex:1}
+  .service .tag{align-self:flex-start;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--blush-deep);background:rgba(232,180,168,.18);padding:.25rem .7rem;border-radius:999px;margin-bottom:.3rem}
+  .services-note{text-align:center;margin-top:1.8rem;color:var(--ink-soft);font-size:.92rem}
+  @media(min-width:820px){.services-grid{grid-template-columns:repeat(2,1fr)}}
+
+  /* ---------- Reseñas ---------- */
+  .reviews{background:var(--ink);color:var(--ivory)}
+  .reviews .sec-head h2{color:var(--ivory)}
+  .reviews .sec-head p{color:#b8aca4}
+  .reviews-grid{display:grid;gap:1.2rem}
+  .review{background:#372e2a;border-radius:var(--radius);padding:1.6rem;display:flex;flex-direction:column;gap:.8rem}
+  .review .stars{font-size:.9rem}
+  .review p{font-size:.95rem;color:#e8dfd7;flex:1}
+  .review footer{font-size:.85rem;color:#b8aca4;font-weight:600}
+  .reviews-cta{text-align:center;margin-top:2.2rem}
+  .reviews-cta a{color:var(--blush);font-weight:600}
+  @media(min-width:820px){.reviews-grid{grid-template-columns:repeat(3,1fr)}}
+
+  /* ---------- Galería ---------- */
+  .gallery-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:.8rem}
+  .gallery-grid .ph{aspect-ratio:1}
+  .gallery-cta{text-align:center;margin-top:2rem}
+  @media(min-width:820px){.gallery-grid{grid-template-columns:repeat(3,1fr)}}
+
+  /* ---------- Ubicación ---------- */
+  .location{background:var(--white);border-block:1px solid var(--line)}
+  .loc-grid{display:grid;gap:2rem}
+  .loc-card{border:1px solid var(--line);border-radius:var(--radius);padding:1.8rem;background:var(--ivory)}
+  .loc-card h3{font-family:var(--font-display);font-weight:500;font-size:1.2rem;margin-bottom:1rem}
+  .loc-item{display:flex;gap:.7rem;margin-bottom:.9rem;font-size:.95rem}
+  .loc-item a{color:var(--ink)}
+  .hours{width:100%;border-collapse:collapse;font-size:.92rem}
+  .hours td{padding:.45rem 0;border-bottom:1px solid var(--line)}
+  .hours tr:last-child td{border-bottom:none}
+  .hours td:last-child{text-align:right;color:var(--ink-soft)}
+  .hours .open td:last-child{color:var(--blush-deep);font-weight:700}
+  .hours-note{font-size:.82rem;color:var(--ink-soft);margin-top:.8rem}
+  @media(min-width:820px){.loc-grid{grid-template-columns:1fr 1fr}}
+
+  /* ---------- FAQ ---------- */
+  .faq-list{max-width:44rem;margin-inline:auto;display:flex;flex-direction:column;gap:.8rem}
+  details{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:1.1rem 1.4rem}
+  summary{cursor:pointer;font-weight:700;font-size:.98rem;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:1rem}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:'+';font-family:var(--font-display);font-size:1.3rem;color:var(--blush-deep);flex-shrink:0}
+  details[open] summary::after{content:'–'}
+  details p{margin-top:.7rem;color:var(--ink-soft);font-size:.95rem}
+
+  /* ---------- Contacto ---------- */
+  .contact{background:var(--ivory-2)}
+  .contact-box{max-width:34rem;margin-inline:auto;background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:2rem}
+  .contact-box label{display:block;font-size:.85rem;font-weight:700;margin-bottom:.35rem}
+  .contact-box input,.contact-box textarea{width:100%;padding:.75rem .9rem;border:1.5px solid var(--line);border-radius:12px;font-family:var(--font-body);font-size:.95rem;background:var(--ivory);margin-bottom:1.1rem;color:var(--ink)}
+  .contact-box input:focus,.contact-box textarea:focus{outline:none;border-color:var(--blush-deep)}
+  .contact-box .btn{width:100%;justify-content:center}
+  .contact-alt{text-align:center;margin-top:1.2rem;font-size:.9rem;color:var(--ink-soft)}
+  .contact-alt a{color:var(--ink);font-weight:700}
+
+  /* ---------- Footer ---------- */
+  .footer{background:var(--ink);color:#b8aca4;padding:3rem 0 2rem;font-size:.9rem}
+  .footer-grid{display:grid;gap:1.8rem;margin-bottom:2.2rem}
+  .footer h4{font-family:var(--font-display);color:var(--ivory);font-weight:500;font-size:1.05rem;margin-bottom:.7rem}
+  .footer a{color:#d8cec6}
+  .footer ul{list-style:none;display:flex;flex-direction:column;gap:.4rem}
+  .footer-legal{border-top:1px solid #453b35;padding-top:1.4rem;text-align:center;font-size:.82rem;line-height:1.7}
+  @media(min-width:820px){.footer-grid{grid-template-columns:repeat(3,1fr)}}
+
+  /* ---------- Botón flotante WhatsApp ---------- */
+  .fab-wa{position:fixed;right:1.1rem;bottom:1.1rem;z-index:60;width:56px;height:56px;border-radius:50%;background:#25d366;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 22px rgba(37,211,102,.4);text-decoration:none;transition:transform .15s ease}
+  .fab-wa:hover{transform:scale(1.07)}
+  .fab-wa svg{width:28px;height:28px;fill:#fff}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav class="nav">
+      <a class="brand" href="#inicio">Paola Di Donato <em>Nail Artist</em></a>
+      <ul class="nav-links">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#resenas">Reseñas</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
+        <li><a href="#faq">Preguntas</a></li>
+        <li><a class="btn btn-primary nav-cta" href="#contacto">Solicitar información</a></li>
+      </ul>
+      <button class="menu-btn" aria-label="Abrir menú" onclick="document.getElementById('mmenu').classList.toggle('open')">☰</button>
+    </nav>
+    <ul class="mobile-menu" id="mmenu">
+      <li><a href="#servicios" onclick="closeMenu()">Servicios</a></li>
+      <li><a href="#resenas" onclick="closeMenu()">Reseñas</a></li>
+      <li><a href="#galeria" onclick="closeMenu()">Galería</a></li>
+      <li><a href="#ubicacion" onclick="closeMenu()">Ubicación</a></li>
+      <li><a href="#faq" onclick="closeMenu()">Preguntas frecuentes</a></li>
+      <li><a class="btn btn-primary" href="#contacto" onclick="closeMenu()">Solicitar información</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="inicio">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Punta del Este · Uruguay</p>
+      <h1>Uñas cuidadas,<br>diseños <em>a tu medida</em>.</h1>
+      <p>Manicura profesional y nail art en un espacio prolijo y cercano.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="#contacto">Solicitar información</a>
+        <a class="btn btn-wa" href="https://wa.me/59891353410?text=Hola%20Paola!%20Quiero%20pedir%20informaci%C3%B3n%20sobre%20tus%20servicios." target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+      <div class="rating">
+        <span class="stars">★★★★★</span>
+        <span>5,0 en Google · <a href="https://maps.google.com/?cid=9199318032903691189" target="_blank" rel="noopener">24 reseñas</a></span>
+      </div>
+      <div class="hero-strip">
+        <div class="ph">Foto de trabajo<br>[reemplazar]</div>
+        <div class="ph">Foto del espacio<br>[reemplazar]</div>
+        <div class="ph">Foto de diseño<br>[reemplazar]</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROPUESTA DE VALOR -->
+  <section class="values">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Por qué elegirla</p>
+        <h2>Lo que sus clientas repiten en cada reseña</h2>
+      </div>
+      <div class="values-grid">
+        <div class="value">
+          <div class="icon">🤍</div>
+          <h3>Trabajo cuidadoso</h3>
+          <p>Las reseñas destacan la prolijidad y el trato delicado con cada uña, incluso al retirar trabajos hechos en otros lugares.</p>
+        </div>
+        <div class="value">
+          <div class="icon">✨</div>
+          <h3>Higiene y ambiente</h3>
+          <p>Un espacio agradable y limpio es una de las menciones más frecuentes de quienes ya la visitaron.</p>
+        </div>
+        <div class="value">
+          <div class="icon">💬</div>
+          <h3>Atención que explica</h3>
+          <p>Clientas cuentan que Paola explica el proceso paso a paso y acompaña casos delicados con paciencia.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Servicios</p>
+        <h2>Del mantenimiento al diseño soñado</h2>
+        <p>Servicios mencionados por sus clientas. Consultá disponibilidad y precios por WhatsApp.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service">
+          <span class="tag">Fortalecimiento</span>
+          <h3>Kapping</h3>
+          <p>Capa de refuerzo sobre la uña natural, con colocación prolija y retiro cuidadoso — también de trabajos realizados en otros salones.</p>
+          <a class="btn btn-ghost" href="https://wa.me/59891353410?text=Hola%20Paola!%20Quiero%20consultar%20por%20kapping." target="_blank" rel="noopener">Consultar</a>
+        </div>
+        <div class="service">
+          <span class="tag">Nail art</span>
+          <h3>Diseños personalizados</h3>
+          <p>Desde looks simples y prolijos hasta diseños complejos a partir de una referencia, en distintas formas — incluida stiletto.</p>
+          <a class="btn btn-ghost" href="https://wa.me/59891353410?text=Hola%20Paola!%20Quiero%20consultar%20por%20un%20dise%C3%B1o." target="_blank" rel="noopener">Consultar</a>
+        </div>
+        <div class="service">
+          <span class="tag">Recuperación</span>
+          <h3>Uñas mordidas (onicofagia)</h3>
+          <p>Acompañamiento comprensivo para recuperar manos lastimadas por el hábito de morderse las uñas, según cuentan sus clientas.</p>
+          <a class="btn btn-ghost" href="https://wa.me/59891353410?text=Hola%20Paola!%20Quiero%20consultar%20por%20recuperaci%C3%B3n%20de%20u%C3%B1as." target="_blank" rel="noopener">Consultar</a>
+        </div>
+        <div class="service">
+          <span class="tag">Cuidado</span>
+          <h3>Manicura y pedicura</h3>
+          <p>Cuidado integral de manos y pies con foco en la salud de la uña natural. <em>[Detalle de servicios a completar por el negocio.]</em></p>
+          <a class="btn btn-ghost" href="https://wa.me/59891353410?text=Hola%20Paola!%20Quiero%20consultar%20por%20manicura%20o%20pedicura." target="_blank" rel="noopener">Consultar</a>
+        </div>
+      </div>
+      <p class="services-note">¿Buscás otro servicio? Escribile a Paola y contale qué necesitás.</p>
+    </div>
+  </section>
+
+  <!-- RESEÑAS -->
+  <section id="resenas" class="reviews">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Reseñas reales</p>
+        <h2>5,0 de 5 en Google, con 24 calificaciones</h2>
+        <p>Opiniones publicadas por clientas en Google Maps.</p>
+      </div>
+      <div class="reviews-grid">
+        <article class="review">
+          <span class="stars">★★★★★</span>
+          <p>"Fui a remover kapping mal realizado en otro lugar. El trabajo fue excelente. Paola trató mis uñas con sumo cuidado y dejándolas muy prolijas. El lugar es muy agradable y la higiene 10 puntos."</p>
+          <footer>Gabriela Paredes</footer>
+        </article>
+        <article class="review">
+          <span class="stars">★★★★★</span>
+          <p>"Sufrí de onicofagia. Toda la vida con uñas y dedos lastimados, pero Paola me ayudó muchísimo, muy profesional y comprensiva. Hoy mis manos son otras. ¡Recomiendo ir!"</p>
+          <footer>Loreley González</footer>
+        </article>
+        <article class="review">
+          <span class="stars">★★★★★</span>
+          <p>"Soy de Montevideo y vengo hasta acá a hacerme las uñas, ya que en la capital no he conseguido alguien que me guste como las deja Paola."</p>
+          <footer>Daiana</footer>
+        </article>
+      </div>
+      <p class="reviews-cta"><a href="https://maps.google.com/?cid=9199318032903691189" target="_blank" rel="noopener">Ver todas las reseñas en Google Maps →</a></p>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section id="galeria">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Galería</p>
+        <h2>Trabajos recientes</h2>
+        <p>Espacios listos para las fotos reales de Instagram.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="ph">Foto 1<br>[reemplazar]</div>
+        <div class="ph">Foto 2<br>[reemplazar]</div>
+        <div class="ph">Foto 3<br>[reemplazar]</div>
+        <div class="ph">Foto 4<br>[reemplazar]</div>
+        <div class="ph">Foto 5<br>[reemplazar]</div>
+        <div class="ph">Foto 6<br>[reemplazar]</div>
+      </div>
+      <div class="gallery-cta">
+        <a class="btn btn-ghost" href="https://www.instagram.com/paoladidonatonailartist" target="_blank" rel="noopener">Ver más en Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- UBICACIÓN -->
+  <section id="ubicacion" class="location">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Ubicación y horarios</p>
+        <h2>Encontrala en Punta del Este</h2>
+      </div>
+      <div class="loc-grid">
+        <div class="loc-card">
+          <h3>Datos de contacto</h3>
+          <p class="loc-item">📍 <a href="https://maps.google.com/?cid=9199318032903691189" target="_blank" rel="noopener">C. 24 &amp;, 20100 Punta del Este,<br>Departamento de Maldonado, Uruguay</a></p>
+          <p class="loc-item">📞 <a href="tel:+59891353410">+598 91 353 410</a></p>
+          <p class="loc-item">💬 <a href="https://wa.me/59891353410" target="_blank" rel="noopener">Escribir por WhatsApp</a></p>
+          <p class="loc-item">📸 <a href="https://www.instagram.com/paoladidonatonailartist" target="_blank" rel="noopener">@paoladidonatonailartist</a></p>
+          <p class="loc-item">🗺️ <a href="https://maps.google.com/?cid=9199318032903691189" target="_blank" rel="noopener">Cómo llegar (Google Maps)</a></p>
+        </div>
+        <div class="loc-card">
+          <h3>Horarios de atención</h3>
+          <table class="hours">
+            <tr><td>Lunes</td><td>Cerrado</td></tr>
+            <tr class="open"><td>Martes</td><td>10:00 – 18:30</td></tr>
+            <tr><td>Miércoles</td><td>Cerrado</td></tr>
+            <tr><td>Jueves</td><td>Cerrado</td></tr>
+            <tr><td>Viernes</td><td>Cerrado</td></tr>
+            <tr><td>Sábado</td><td>Cerrado</td></tr>
+            <tr class="open"><td>Domingo</td><td>10:00 – 18:30</td></tr>
+          </table>
+          <p class="hours-note">Horarios según la ficha de Google. Para otros días u horarios, consultá disponibilidad por WhatsApp.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Preguntas frecuentes</p>
+        <h2>Antes de tu primera visita</h2>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>¿Cómo reservo un turno?</summary>
+          <p>Escribí por WhatsApp al <a href="https://wa.me/59891353410" target="_blank" rel="noopener">+598 91 353 410</a> contando qué servicio buscás. Te va a responder con la disponibilidad.</p>
+        </details>
+        <details>
+          <summary>¿Puedo ir si tengo un trabajo hecho en otro lugar?</summary>
+          <p>Sí. Clientas cuentan en sus reseñas que llegaron con kapping de otros salones y el retiro se hizo con mucho cuidado de la uña natural.</p>
+        </details>
+        <details>
+          <summary>¿Trabaja con uñas mordidas o muy dañadas?</summary>
+          <p>Según sus reseñas, Paola ha acompañado casos de onicofagia con paciencia y comprensión. Escribile para contarle tu caso puntual.</p>
+        </details>
+        <details>
+          <summary>¿Puedo llevar una foto de referencia para el diseño?</summary>
+          <p>Sí. En las reseñas, una clienta cuenta que llevó un diseño complejo de referencia y el resultado quedó igual a la foto.</p>
+        </details>
+        <details>
+          <summary>¿Dónde puedo ver trabajos recientes?</summary>
+          <p>En su Instagram: <a href="https://www.instagram.com/paoladidonatonailartist" target="_blank" rel="noopener">@paoladidonatonailartist</a>.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="contact">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Contacto</p>
+        <h2>Solicitá información</h2>
+        <p>Completá tus datos y el mensaje se abre directo en WhatsApp.</p>
+      </div>
+      <div class="contact-box">
+        <form id="waForm">
+          <label for="fName">Nombre</label>
+          <input id="fName" type="text" placeholder="Tu nombre" required>
+          <label for="fMsg">¿Qué servicio te interesa?</label>
+          <textarea id="fMsg" rows="3" placeholder="Ej.: kapping con diseño, para el próximo domingo" required></textarea>
+          <button class="btn btn-wa" type="submit">Enviar por WhatsApp</button>
+        </form>
+        <p class="contact-alt">Preferís llamar: <a href="tel:+59891353410">+598 91 353 410</a></p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>Paola Di Donato Nail Artist</h4>
+        <p>Salón de manicura y pedicura<br>C. 24 &amp;, 20100 Punta del Este,<br>Departamento de Maldonado, Uruguay</p>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="tel:+59891353410">+598 91 353 410</a></li>
+          <li><a href="https://wa.me/59891353410" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="https://www.instagram.com/paoladidonatonailartist" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://maps.google.com/?cid=9199318032903691189" target="_blank" rel="noopener">Google Maps</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Horarios</h4>
+        <ul>
+          <li>Martes: 10:00 – 18:30</li>
+          <li>Domingo: 10:00 – 18:30</li>
+          <li>Resto de la semana: cerrado</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <p>Propuesta conceptual desarrollada por GM Studio.</p>
+      <p>Este sitio es una demostración comercial y no es el sitio oficial del negocio. Datos obtenidos de la ficha pública de Google (agosto 2026).</p>
+    </div>
+  </div>
+</footer>
+
+<a class="fab-wa" href="https://wa.me/59891353410?text=Hola%20Paola!%20Quiero%20pedir%20informaci%C3%B3n." target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+  <svg viewBox="0 0 32 32"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.4.7 4.6 2 6.5L4 29l7.7-2c1.8 1 3.8 1.5 5.9 1.5 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 22c-1.9 0-3.7-.5-5.3-1.5l-.4-.2-4.5 1.2 1.2-4.4-.3-.4C5.6 18.1 5 16.6 5 15 5 9 9.9 4 16 4s11 5 11 11-4.9 10-11 10zm5.5-7.5c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.5-.5.2-.2.2-.3.3-.5.1-.2.1-.4 0-.6-.1-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.2-.6-.4z"/></svg>
+</a>
+
+<script>
+  function closeMenu(){document.getElementById('mmenu').classList.remove('open')}
+  document.getElementById('waForm').addEventListener('submit',function(e){
+    e.preventDefault();
+    var n=document.getElementById('fName').value.trim();
+    var m=document.getElementById('fMsg').value.trim();
+    var text='Hola Paola! Soy '+n+'. '+m;
+    window.open('https://wa.me/59891353410?text='+encodeURIComponent(text),'_blank');
+  });
+</script>
+
+</body>
+</html>
